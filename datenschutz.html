@@ -1,36 +1,153 @@
-# Datenschutzerklärung für SkyVault
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datenschutzinformationen zur SkyVault iPhone-App: lokale Sammlung, Standort, Online-Dienste und deine Rechte.">
+  <meta name="referrer" content="no-referrer">
+  <title>Datenschutzerklärung für SkyVault</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #17243b; background: #f5f7fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 24px 16px 64px; line-height: 1.65; }
+    main { max-width: 880px; margin: auto; padding: clamp(20px, 5vw, 48px); background: #fff; border: 1px solid #dce3eb; border-radius: 14px; }
+    h1, h2, h3 { line-height: 1.3; color: #102640; }
+    h1 { margin-top: 0; font-size: clamp(1.8rem, 5vw, 2.5rem); }
+    h2 { margin-top: 2.3rem; font-size: 1.35rem; }
+    h3 { font-size: 1.1rem; margin-top: 1.8rem; }
+    a { color: #075ba5; overflow-wrap: anywhere; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #075ba5; outline-offset: 3px; }
+    .meta { color: #53647a; }
+    .notice { padding: 16px 18px; border-left: 4px solid #b56b00; background: #fff6e5; border-radius: 4px; }
+    li { margin-bottom: .5rem; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+    caption { text-align: left; font-weight: 600; margin-bottom: 12px; }
+    th, td { padding: 12px; border: 1px solid #dce3eb; vertical-align: top; text-align: left; }
+    th { background: #f1f5f9; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dce3eb; color: #53647a; }
+    @media print { body { background: #fff; padding: 0; } main { max-width: none; padding: 0; border: 0; } a { color: inherit; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Datenschutzerklärung für SkyVault</h1>
+    <p class="meta">Stand: <time datetime="2026-10-12">12. Oktober 2026</time> · kostenlose iPhone-App ohne Werbung</p>
+    <p class="notice"><strong>Arbeitsfassung:</strong> Diese überarbeitete Erklärung beschreibt den derzeitigen technischen Stand der iPhone-App. Offene Angaben zu Anbieterprotokollen, internationalen Übermittlungen und den rechtlichen Voraussetzungen sind in <a href="#offene-punkte">Abschnitt 11</a> aufgeführt. Sie ist noch keine abgeschlossene Erklärung für die finale App-Store-Einreichung.</p>
+  </header>
 
-Vor Veröffentlichung alle eckigen Platzhalter ersetzen und die Erklärung rechtlich prüfen lassen.
+  <section aria-labelledby="verantwortlicher">
+    <h2 id="verantwortlicher">1. Verantwortlicher und Kontakt</h2>
+    <p>Verantwortlicher für SkyVault ist <strong>Paul Maximilian Röhrig</strong>.</p>
+    <p>Für Datenschutzfragen und die Ausübung deiner Rechte erreichst du mich unter <a href="mailto:skyvault@gmx.de">skyvault@gmx.de</a>.</p>
+    <p>Diese Erklärung gilt für die native SkyVault iPhone-App. Eine separat betriebene Browser-App mit eigenem Datendienst wäre gesondert zu beschreiben.</p>
+  </section>
 
-## Verantwortlicher
+  <section aria-labelledby="ueberblick">
+    <h2 id="ueberblick">2. Das Wichtigste im Überblick</h2>
+    <ul>
+      <li>Deine persönliche Sammlung wird standardmäßig auf deinem Gerät gespeichert. SkyVault benötigt kein Benutzerkonto und betreibt keinen eigenen Cloud-Sync für deine Sammlung.</li>
+      <li>Die App enthält keine Werbung, keine eigenen Analyse-SDKs und kein Tracking für Werbezwecke.</li>
+      <li>Karten, Bilder und Online-Daten erzeugen direkte Verbindungen zu externen Anbietern. Diese erhalten dabei mindestens deine IP-Adresse und die für den jeweiligen Abruf erforderlichen Angaben.</li>
+      <li>Standortbasierte Flugerkennung startet nach deiner Aktion. Ohne Standortfreigabe kannst du deine Sammlung und manuelle Einträge weiter nutzen; für die Flugerkennung kannst du auch einen Flughafen auswählen.</li>
+      <li>Systemseitige Gerätebackups, beispielsweise über iCloud, hängen von deinen Apple-Einstellungen ab. Das ist vom eigenen Cloud-Sync der App zu unterscheiden.</li>
+    </ul>
+  </section>
 
-Röhrig, skyvault@gmx.de
+  <section aria-labelledby="lokale-daten">
+    <h2 id="lokale-daten">3. Lokale Sammlung, Import und Export</h2>
+    <p>Auf dem Gerät speichert SkyVault unter anderem Flugzeugmodelle, Airlines, Flugrouten, Sichtungen, Flugnummern, Reisedaten, Reiseklassen, Notizen, Favoriten und Einstellungen. Welche Angaben gespeichert werden, hängt von deinen Eingaben und verwendeten Funktionen ab.</p>
+    <p>Die App legt die Sammlung und eine lokale Wiederherstellungskopie im App-Speicher ab. Stammdaten werden zusätzlich in einer lokalen Datenbank gespeichert. Die persönliche Sammlung wird nicht automatisch an den SkyVault-Anbieter hochgeladen.</p>
+    <p>CSV-Dateien, Boardingpass-Daten, Wallet-Dateien und SkyVault-Backups werden zum Import lokal gelesen. Beim Lesen eines Boardingpasses können personenbezogene Angaben enthalten sein; die Routenübernahme verwendet insbesondere Strecke, Datum, Flugnummer und Reiseklasse. Ein automatischer Upload der importierten Originaldateien findet nicht statt.</p>
+    <p>Wenn du einen Export startest, erstellt die App eine Datei und öffnet die iOS-Teilen-Funktion. Die temporäre Exportdatei wird anschließend aus dem App-Cache entfernt. Eine von dir gespeicherte oder geteilte Kopie verbleibt bei dem ausgewählten Speicherort oder Empfänger und wird von einer späteren Löschung in SkyVault nicht automatisch erfasst.</p>
+  </section>
 
-## Lokale Nutzung
+  <section aria-labelledby="online">
+    <h2 id="online">4. Online-Funktionen und Empfänger</h2>
+    <p>Die iPhone-App fragt die folgenden Dienste direkt ab. Für diese Abrufe wird kein SkyVault-API-Server zwischengeschaltet. Je nach Dienst fallen IP-Adresse, Zeitpunkt, angeforderte Ressource und technische Angaben zur App bzw. Verbindung an. Die Anbieter können eigene Betriebs- und Sicherheitsprotokolle führen.</p>
+    <div class="table-wrap" role="region" aria-label="Online-Dienste" tabindex="0">
+      <table>
+        <caption>Welche Daten bei den einzelnen Funktionen übertragen werden</caption>
+        <thead><tr><th scope="col">Dienst und Zweck</th><th scope="col">Übermittelte Angaben und Auslöser</th><th scope="col">Weitere Informationen</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">OurAirports – Flughafen-Stammdaten</th><td>Beim Katalogimport werden öffentlich verfügbare Flughafendaten heruntergeladen. Der Abruf über GitHub-Infrastruktur übermittelt Verbindungsdaten. Die anschließende Suche im heruntergeladenen Katalog erfolgt lokal.</td><td><a href="https://ourairports.com/about.html">OurAirports</a>; <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub-Datenschutz</a></td></tr>
+          <tr><th scope="row">Wikidata – Flugzeug- und Airline-Daten</th><td>Katalogabfragen und ergänzende Anfragen zu Airline-/Flottendaten gehen an Wikimedia-Dienste. Bei Einzelabfragen wird die entsprechende Wikidata-Kennung übermittelt. Die Suche im gespeicherten Stammdatenkatalog erfolgt lokal.</td><td><a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Wikimedia-Datenschutz</a></td></tr>
+          <tr><th scope="row">Wikimedia Commons – Fotos und Logos</th><td>Beim Laden eines Bildes werden seine Adresse und Verbindungsdaten übermittelt. Stammdaten- und Bildabrufe können beim Öffnen einer entsprechenden Ansicht automatisch erfolgen.</td><td><a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Wikimedia-Datenschutz</a></td></tr>
+          <tr><th scope="row">OpenStreetMap – Karten</th><td>Beim Anzeigen einer Karte werden die benötigten Kartenausschnitte und Verbindungsdaten an den Kartendienst übermittelt. Die Dashboardkarte kann bereits beim App-Start geladen werden. SkyVault übermittelt keine vollständige persönliche Sammlung an den Kartendienst; die angeforderten Ausschnitte können geografische Interessen erkennen lassen.</td><td><a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap-Datenschutz</a></td></tr>
+          <tr><th scope="row">OpenSky Network – nahe Flugzeuge</th><td>Nach dem Start der Flugerkennung wird ein Suchbereich um deinen Gerätestandort oder den ausgewählten Flughafen direkt an OpenSky übertragen. Aus den Suchgrenzen lässt sich der Mittelpunkt und damit bei Gerätestandortnutzung dein Standort ableiten. Auch Verbindungsdaten werden übermittelt.</td><td><a href="https://opensky-network.org/about/privacy-policy">OpenSky-Datenschutz</a></td></tr>
+          <tr><th scope="row">adsb.lol – Flugzeugzuordnung und Routen</th><td>Bei der Zuordnung einer erkannten Maschine werden ICAO24-Kennungen abgefragt. Bei der Flugnummernsuche wird das Callsign bzw. die Flugnummer an den VRS-Routendienst gesendet. Dazu kommen Verbindungsdaten. Der Anbieter nennt Cloudflare als Proxy und GitHub für Teile der statischen Daten.</td><td><a href="https://www.adsb.lol/privacy-license/">adsb.lol-Datenschutzhinweise</a></td></tr>
+          <tr><th scope="row">Logostream – optionale Airline-Logos</th><td>Wenn du einen persönlichen API-Schlüssel hinterlegt hast, werden dieser Schlüssel, die Airline-Kennung und Verbindungsdaten für den Logoabruf an Logostream gesendet. Der Schlüssel kann beim Anbieter die Zuordnung zu dessen Nutzerkonto ermöglichen.</td><td><a href="https://airline.logostream.dev/terms">Logostream-Anbieterinformationen</a>; offene Protokollangaben siehe Abschnitt 11</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Wenn du eine eigene externe Bildadresse einträgst, wird das Bild von dem zugehörigen Anbieter geladen. Auch dieser erhält dabei Verbindungsdaten. Für das bewusste Öffnen externer Links gelten zusätzlich die Datenschutzinformationen der besuchten Website.</p>
+  </section>
 
-SkyVault speichert Flugzeugmodelle, Airlines, Routen, Notizen, Favoriten, Importe und Einstellungen standardmäßig lokal auf dem Gerät. Diese Daten werden nicht automatisch in ein Benutzerkonto oder eine Cloud übertragen. Nutzer können ein Backup exportieren und sämtliche lokalen SkyVault-Daten innerhalb der App löschen.
+  <section aria-labelledby="standort">
+    <h2 id="standort">5. Standort und Flugerkennung</h2>
+    <p>Die App fordert Standortzugriff im Vordergrund an, nachdem du die entsprechende Funktion startest. Bei aktivierter Automatik wird die Suche während sichtbarer App-Nutzung regelmäßig wiederholt. Die App sieht keinen dauerhaften Standortdienst im Hintergrund vor.</p>
+    <p>Der Gerätestandort dient zur Bildung der OpenSky-Suchgrenzen. Er wird nicht als eigenständiger Standortverlauf in deiner Sammlung gespeichert. Die zuletzt empfangenen Flugzeugergebnisse, einschließlich der Positionen der Flugzeuge, werden dagegen lokal zwischengespeichert und beim nächsten erfolgreichen Abruf ersetzt. Von dir bestätigte Sichtungen können Callsign, ICAO24-Kennung und weitere ausgewählte Angaben im Logbuch enthalten.</p>
+    <p>Du kannst die automatische Flugerkennung in den Einstellungen bzw. unter „Datenschutz &amp; Kontrolle“ stoppen. Die Standortberechtigung kannst du in den iOS-Einstellungen widerrufen. Bei einer Suche nach Flughafenkoordinaten wird anstelle deines Gerätestandorts der Flughafen-Suchbereich verwendet.</p>
+  </section>
 
-## Optionale Online-Funktionen
+  <section aria-labelledby="grundlagen">
+    <h2 id="grundlagen">6. Zwecke und vorgesehene Rechtsgrundlagen</h2>
+    <p>Die lokale Verarbeitung dient den von dir gewünschten Sammlungs-, Logbuch-, Import- und Exportfunktionen. Technisch erforderliche Online-Abrufe dienen der Bereitstellung von Stammdaten, Karten, Bildern und Flugzuordnungen.</p>
+    <ul>
+      <li>Für die Bereitstellung vereinbarter Nutzungsfunktionen kommt Art. 6 Abs. 1 Buchst. b DSGVO in Betracht, soweit die jeweilige Verarbeitung dafür erforderlich ist.</li>
+      <li>Für technisch notwendige Abrufe sowie die Bearbeitung allgemeiner Supportanfragen ist Art. 6 Abs. 1 Buchst. f DSGVO vorgesehen. Das berechtigte Interesse liegt in der funktionsfähigen, sicheren Bereitstellung der App und der Beantwortung von Anfragen. Erforderlichkeit und Interessenabwägung sind vor Veröffentlichung abschließend zu prüfen.</li>
+      <li>Für die freiwillige gerätestandortbasierte Flugerkennung ist eine informierte Einwilligung nach Art. 6 Abs. 1 Buchst. a DSGVO vorgesehen. Diese Erklärung allein erteilt keine Einwilligung. Vor Aktivierung müssen Daten, Empfänger und Zweck verständlich erklärt werden; die iOS-Systemfreigabe ist damit abzugleichen.</li>
+    </ul>
+    <p>Die für gewünschte lokale Funktionen erforderliche Speicherung bzw. der entsprechende Zugriff auf dein Gerät richtet sich zusätzlich nach § 25 Abs. 2 Nr. 2 TDDDG. Daraus ergibt sich keine pauschale Einwilligung in andere Verarbeitungszwecke.</p>
+  </section>
 
-Bei Katalog- und Flugnummernsuchen verarbeitet der SkyVault-Datendienst den jeweiligen Suchbegriff und technisch notwendige Verbindungsdaten. Wenn Nutzer die Flugerkennung aktiv starten, werden Standortkoordinaten und der gewählte Radius an den SkyVault-Datendienst übertragen, um OpenSky abzufragen. Die Kartenansicht lädt Kartenkacheln von OpenStreetMap. Flugzeug- und Airline-Bilder können von Wikimedia Commons geladen werden; dabei fallen technisch notwendige Verbindungsdaten wie die IP-Adresse an.
+  <section aria-labelledby="aufbewahrung">
+    <h2 id="aufbewahrung">7. Speicherdauer und Löschung</h2>
+    <ul>
+      <li><strong>Sammlung und Einstellungen:</strong> Sie bleiben auf dem Gerät, bis du sie änderst oder löschst. Unter „Datenschutz &amp; Kontrolle“ kannst du die lokale Sammlung samt Einstellungen und appinternen Sicherungen zurücksetzen. Heruntergeladene öffentliche Stammdaten können separat im lokalen Katalog verbleiben.</li>
+      <li><strong>Letzte Flugzeugergebnisse:</strong> Sie werden lokal gespeichert, bis ein erfolgreicher Abruf sie ersetzt oder du die lokalen Daten löschst.</li>
+      <li><strong>Logostream-Schlüssel:</strong> Er wird im sicheren iOS-Schlüsselspeicher abgelegt, nicht im Collection-Backup. Du kannst ihn in den Logo-Einstellungen oder über die endgültige lokale Datenlöschung entfernen. Der iOS-Schlüsselspeicher kann eine Deinstallation überdauern.</li>
+      <li><strong>Gerätebackups und eigene Exportkopien:</strong> Ihre Aufbewahrung hängt von deinen Geräteeinstellungen und dem gewählten Speicherdienst ab. Eine Löschung in SkyVault entfernt solche externen Kopien nicht automatisch.</li>
+      <li><strong>Support:</strong> Wenn du eine E-Mail schickst, werden Absenderadresse, Nachricht und freiwillige Anhänge zur Bearbeitung verarbeitet. Die Aufbewahrung richtet sich nach der Dauer der Bearbeitung, erforderlicher Nachbearbeitung und gegebenenfalls gesetzlichen Aufbewahrungs- oder Nachweispflichten. Bitte sende nur die für dein Anliegen notwendigen Informationen.</li>
+    </ul>
+    <p>SkyVault betreibt für die beschriebenen nativen Datenabrufe keinen eigenen Server und führt dafür keine eigenen Server-Zugriffsprotokolle. Die externen Anbieter können dennoch Protokolle speichern:</p>
+    <ul>
+      <li>adsb.lol nennt für temporäre Logdateien eine Aufbewahrung von weniger als 30 Tagen.</li>
+      <li>Wikimedia nennt für personenbezogene Informationen in den meisten Fällen eine Löschung, Aggregation oder De-Identifizierung nach 90 Tagen; Ausnahmen ergeben sich aus seiner Richtlinie.</li>
+      <li>OpenSky nennt für Website-Serverdaten grundsätzlich höchstens sieben Tage, mit Ausnahmen zur Beweissicherung. Die genaue Anwendung auf API-Anfragen einschließlich Suchgrenzen ist noch zu bestätigen.</li>
+      <li>Für OpenStreetMap, Logostream und beteiligte Hosting-/CDN-Dienste sind die jeweils für diese App-Abrufe geltenden Protokollfristen vor dem Release abschließend zu klären. Allgemeine Fristen für Website-Analyse dürfen nicht ungeprüft auf Karten- oder API-Abrufe übertragen werden.</li>
+    </ul>
+  </section>
 
-[Produktions-Hostinganbieter, Serverstandort, Rechtsgrundlage, konkrete Logdaten und jeweilige Löschfristen ergänzen.]
+  <section aria-labelledby="international">
+    <h2 id="international">8. Internationale Verarbeitung und Aufruf dieser Seite</h2>
+    <p>Die Dienste können personenbezogene Verbindungsdaten auch außerhalb des Europäischen Wirtschaftsraums verarbeiten. OpenSky sitzt in der Schweiz. Wikimedia betreibt internationale Infrastruktur. OpenStreetMap nennt unter anderem das Vereinigte Königreich, die Niederlande und ein weltweites Netzwerk für Kartenkacheln. adsb.lol nennt Server in Deutschland sowie Cloudflare und GitHub für Teile der Bereitstellung.</p>
+    <p>Die für die konkreten Datenflüsse maßgeblichen Empfänger, Verarbeitungsorte und gegebenenfalls erforderlichen Übermittlungsgrundlagen nach Art. 44 ff. DSGVO sind vor Veröffentlichung abschließend zu bestätigen. Diese Arbeitsfassung behauptet weder eine ausschließliche Verarbeitung in der EU noch das Vorliegen sämtlicher erforderlicher Garantien.</p>
+    <p>Wenn du diese Erklärung oder das Repository über GitHub aufrufst, verarbeitet GitHub die dabei anfallenden Verbindungsdaten. GitHub nennt internationale Verarbeitung und je nach Übermittlung Standardvertragsklauseln bzw. das Data Privacy Framework. Die HTML-Datei selbst bindet keine externen Schriftarten, Bilder, Skripte oder Analysewerkzeuge ein. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub-Datenschutz</a>.</p>
+  </section>
 
-## Empfänger und Quellen
+  <section aria-labelledby="rechte">
+    <h2 id="rechte">9. Deine Rechte</h2>
+    <p>Nach den gesetzlichen Voraussetzungen hast du Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Soweit die Verarbeitung auf einer Einwilligung beruht, kannst du sie jederzeit für die Zukunft widerrufen; die bisherige Rechtmäßigkeit bleibt davon unberührt.</p>
+    <p><strong>Widerspruch:</strong> Bei Verarbeitung aufgrund berechtigter Interessen kannst du aus Gründen deiner besonderen Situation widersprechen. Bei Direktwerbung wäre der Widerspruch jederzeit möglich; SkyVault verwendet deine Daten nicht für Direktwerbung.</p>
+    <p>Du kannst dich außerdem bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere am Ort deines gewöhnlichen Aufenthalts, deines Arbeitsplatzes oder des vermuteten Verstoßes. Eine Übersicht der Behörden findest du beim <a href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en">Europäischen Datenschutzausschuss</a>.</p>
+    <p>Wende dich für Anfragen zu SkyVault an <a href="mailto:skyvault@gmx.de">skyvault@gmx.de</a>. Deine rein lokal gespeicherte Sammlung kann der Anbieter nicht selbst auslesen oder aus der Ferne löschen; dafür stehen die Funktionen auf deinem Gerät zur Verfügung. Anfragen zu personenbezogenen Protokolldaten externer Dienste können auch an deren Datenschutzkontakt gerichtet werden.</p>
+  </section>
 
-- [Hosting-/API-Anbieter]
-- OpenSky Network
-- OpenStreetMap
-- OurAirports
-- Wikidata und Wikimedia Commons
-- [tatsächlich aktivierte Flugplananbieter]
+  <section aria-labelledby="freiwillig">
+    <h2 id="freiwillig">10. Freiwilligkeit und automatisierte Entscheidungen</h2>
+    <p>Es besteht keine gesetzliche Pflicht, persönliche Sammlungseinträge, Standortdaten oder einen Logostream-Schlüssel bereitzustellen. Ohne entsprechende Angaben sind die darauf angewiesenen Funktionen eingeschränkt; manuelle Sammlungseinträge und die lokale Nutzung bleiben möglich.</p>
+    <p>Die App erzeugt Flugzuordnungsvorschläge und berechnet Sammlungsfortschritte. Eine automatisierte Entscheidung mit rechtlicher oder vergleichbar erheblicher Wirkung auf dich im Sinne von Art. 22 DSGVO findet nicht statt.</p>
+  </section>
 
-Die jeweiligen Zwecke, Rechtsgrundlagen, Speicherfristen und gegebenenfalls Drittlandübermittlungen ergänzen.
-
-## Speicherdauer und Rechte
-
-Lokale Daten bleiben gespeichert, bis Nutzer sie in der App löschen oder die App entfernen. Für Serverprotokolle und externe Anbieter gelten die oben konkret anzugebenden Fristen. Betroffene können nach anwendbarem Recht Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch verlangen sowie eine Einwilligung mit Wirkung für die Zukunft widerrufen.
-
-## Kontakt und Aufsicht
-
-Röhrig, skyvault@gmx.de
+  <section aria-labelledby="offene-punkte">
+    <h2 id="offene-punkte">11. Noch offene Punkte vor dem App-Store-Release</h2>
+    <p>Die Kontaktangaben werden auf Wunsch des Anbieters derzeit auf vollständigen Namen und E-Mail-Adresse beschränkt. Ob dies für die Verantwortlichenangaben und gegebenenfalls weitere Anbieterpflichten im konkreten Angebot ausreicht, ist rechtlich noch zu prüfen.</p>
+    <p>Für OpenSky ist die schriftliche Erlaubnis zur Produktnutzung noch ausstehend. Diese Datenschutzerklärung ersetzt keine Nutzungslizenz. Ebenso fehlen noch bestätigte API-Protokollangaben für OpenSky und Logostream sowie die abschließende Prüfung der Übermittlungsgrundlagen und Interessenabwägungen. Vor einem Release sind diese Informationen zu vervollständigen und mit den tatsächlichen App-Einwilligungen sowie Apples Datenschutzangaben abzugleichen.</p>
+    <p>Ändern sich Funktionen, Empfänger oder Datenflüsse, wird diese Erklärung entsprechend aktualisiert.</p>
+  </section>
+  <footer><p>SkyVault · Datenschutzkontakt: <a href="mailto:skyvault@gmx.de">skyvault@gmx.de</a> · Stand 12. Oktober 2026</p></footer>
+</main>
+</body>
+</html>
