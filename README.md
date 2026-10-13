@@ -1,6 +1,6 @@
-# Flight Collector
+# My Sky Collection
 
-Öffentliche Informations- und Supportseiten zur kostenlosen iPhone-App Flight Collector.
+Öffentliche Informations- und Supportseiten zur kostenlosen iPhone-App My Sky Collection.
 
 - [Startseite](https://maxroehrig.github.io/skyvault/)
 - [Support & Kontakt](https://maxroehrig.github.io/skyvault/support.html)
